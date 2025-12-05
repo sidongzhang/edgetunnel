@@ -1,6 +1,9 @@
 # wrangler.toml
 name = 'tiancaizhaozhao'
 main = "_worker.js"
-compatibility_date = "2025-11-04"
+compatibility_date = "2025-12-05"
+UUID = "tiancaizhaozhao"
+PROXYIP = "ProxylPSG.CMLiussss.net"
 
 keep_vars = true
+
