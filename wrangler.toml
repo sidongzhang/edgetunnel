@@ -2,8 +2,22 @@
 name = 'tiancaizhaozhao'
 main = "_worker.js"
 compatibility_date = "2025-12-05"
-UUID = "tiancaizhaozhao"
-PROXYIP = "ProxylPSG.CMLiussss.net"
-
 keep_vars = true
 
+[vars]
+# 你的认证 UUID
+UUID = "tiancaizhaozhao"
+
+# 你的优选 IP/域名
+PROXYIP = "ProxylPSG.CMLiussss.net"
+
+# 优选 IP 地址库 API (注意：这里使用多行字符串格式以确保换行符正确)
+ADDAPI = """https://addressesapi.090227.xyz/cmcc-ipv6
+https://addressesapi.090227.xyz/ct
+https://addressesapi.090227.xyz/cmcc"""
+
+# 本地优选 IP 列表
+ADD = """[2400:cb00:f00e:a8:5d:c71d:2c71:7c63]
+[2803:f800:50:0:d6ce:3a6:7088:f992]
+[2803:f800:51::f49d:b305:cbc7]
+[2803:f800:51::84f0:bd51:326a]"""
