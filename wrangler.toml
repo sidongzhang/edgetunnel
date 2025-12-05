@@ -24,3 +24,8 @@ ADD = """[2400:cb00:f00e:a8:5d:c71d:2c71:7c63]
 
 ADMIN = "tiancaizhaozhao618"
 
+[[kv_namespaces]]
+binding = "KV"
+id = "d76a0189bf4f498c9912322ef78388ff"
+
+
