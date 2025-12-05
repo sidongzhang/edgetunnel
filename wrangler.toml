@@ -1,8 +1,12 @@
 # wrangler.toml
-name = 'tiancaizhaozhao'
+name = 'zhaozhao'
 main = "_worker.js"
 compatibility_date = "2025-12-05"
 keep_vars = true
+
+[[kv_namespaces]]
+binding = "KV"
+id = "1c262c029f8f49e595ba4228d9c74eb5"
 
 [vars]
 UUID = "48221544-7890-4886-9052-162391696205"
@@ -22,6 +26,8 @@ ADD = """
 [2803:f800:51::84f0:bd51:326a]"""
 
 ADMIN = "zhaozhao"
+
+
 
 
 
