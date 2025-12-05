@@ -6,7 +6,7 @@ keep_vars = true
 
 [vars]
 # 你的认证 UUID
-UUID = "f84c0d14-51db-4074-bb55-db39ceb29355"
+UUID = "zhaozhao"
 
 # 你的优选 IP/域名
 PROXYIP = "www.aliyun.com"
@@ -27,6 +27,7 @@ ADMIN = "tiancaizhaozhao618"
 [[kv_namespaces]]
 binding = "KV"
 id = "d76a0189bf4f498c9912322ef78388ff"
+
 
 
 
